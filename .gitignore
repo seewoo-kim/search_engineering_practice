@@ -12,3 +12,6 @@ venv/
 
 # VS Code 설정
 .vscode/
+
+# 환경 파일
+.env
