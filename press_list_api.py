@@ -1,7 +1,7 @@
 import os
 from typing import Optional
 from fastapi import FastAPI, HTTPException, Depends
-from sqlalchemy import Column, BigInteger, String, DateTime, create_engine
+from sqlalchemy import Column, BigInteger, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 from dotenv import load_dotenv
